@@ -15,3 +15,5 @@ class ProductSerializer(serializers.ModelSerializer):
         if value < 0:
             raise serializers.ValidationError("Stock must not be below 0.")
         return value
+
+    #gwapo si pj
